@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Project 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="project1 layout-a">
+    <header>
+        <div class="logo" role="img" aria-label="Blurred IDE screenshot"></div>
+        <h1>Basic operations</h1>
+        <p class="tagline">Two short JavaScript demos &mdash; choose a subpage below.</p>
+    </header>
+
+    <div class="container project-layout">
+        <aside class="sidebar" aria-label="Project navigation">
+            <ul class="project-list" aria-label="List of projects">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project1.html">Basic Operations</a></li>
+                <li><a href="project2.html">Functions</a></li>
+
+                <li><span class="nav-disabled" aria-disabled="true">Looping Statements</span></li>
+                <li><span class="nav-disabled" aria-disabled="true">Arrays</span></li>
+                <li><span class="nav-disabled" aria-disabled="true">Objects</span></li>
+                <li><span class="nav-disabled" aria-disabled="true">Object Model, Cookies</span></li>
+                <li><span class="nav-disabled" aria-disabled="true">AJAX</span></li>
+            </ul>
+        </aside>
+
+        <main class="main-content" aria-label="Project 1 navigation">
+            <div class="content">
+                <div class="intro">
+                    <p class="paragraph_no_one">Below are links to two subpages that demonstrate simple JavaScript use cases:</p>
+
+                    <ul class="subpage-notes">
+                        <li><strong>Subpage 1:</strong> JavaScript changes the text color and font.
+                            This script selects the page element with the id output,
+                            builds a small block of HTML as a template string, and then inserts it into that element using innerHTML.
+                            The inserted content displays “xy” in bold red Times New Roman,
+                            “12” in blue Arial, and “89” in green Impact italics.</li>
+                        <li><strong>Subpage 2:</strong> JavaScript performs basic arithmetic operations on integers.
+                            This script grabs references to the button, three input fields, and a results text area.
+                            When the user clicks Process Data, it reads the three input values, trims whitespace,
+                            and validates that each one is a real number using the isNumber() function.
+                            If any value is invalid, it displays an error message in the results area and stops.
+                            Otherwise, it converts the inputs to numbers, calculates the sum, average, product,
+                            as well as the smallest and largest values, formats these results into a multi-line string,
+                            and outputs it in the results text area.</li>
+                    </ul>
+                </div>
+
+                <div class="actions">
+                    <div class="button-group" aria-label="Subpages (coming soon)">
+                        <span class="button button-disabled" aria-disabled="true">Subpage 1</span>
+                        <span class="button button-disabled" aria-disabled="true">Subpage 2</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>
+            &copy; 2025 Made by: <span>Maciej</span> |
+            <a href="mailto:dziewulskim1@my.smccd.edu">dziewulskim1@my.smccd.edu</a>
+        </p>
+    </footer>
+</body>
+</html>
